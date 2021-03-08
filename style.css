@@ -155,9 +155,6 @@
   .menu > ol > li:focus-within .sub-menu {
     max-height: 750px;
   }
-=======
-
-
 body {
   width: 100%;
   background-color:#CAE7DF !important;
@@ -259,4 +256,23 @@ background-color: #F4ABAA;
     100% { background-position: 0 0; }
 } 
 /* nav bar */
-main
+
+.fa {
+  padding: 10px;
+  font-size: 40px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: rgba(255, 0, 0, 0.582);
+  object-fit: cover;
+}
+footer  a{
+  color: rgba(255, 0, 0, 0.582);
+}
+footer p{
+  color:#000;
+}
+.socialmediaicons{
+text-align: end;
+}
