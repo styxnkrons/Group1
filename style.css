@@ -2,6 +2,10 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+  text-align: center;
 }
 
 .menu a:focus {
@@ -176,8 +180,8 @@ body {
 }
 
 .button {
-  position: relative;
-  background-color: #EE7879;
+  position:relative;
+  background-color: rgb(9, 87, 90);
   color: white;
   padding: 20px;
   width: 200px;
@@ -192,7 +196,11 @@ body {
 .jumbotron {
 background-color: #F4ABAA;
 }
-
+.images{
+  text-align:center;
+  height:auto;
+  width: auto;
+}
 
 
 /* hover code */
@@ -264,15 +272,24 @@ background-color: #F4ABAA;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  color: rgba(255, 0, 0, 0.582);
+  color: #2A3166;
   object-fit: cover;
 }
 footer  a{
-  color: rgba(255, 0, 0, 0.582);
+  color: #2A3166;
 }
 footer p{
-  color:#000;
-}
+  color: #2A3166;
+  text-align: center;
+  }
 .socialmediaicons{
 text-align: end;
+}
+#signs{
+  border: #1EAE98 15px;
+  border-style:inset;
+}
+hr{
+ color: #2A3166;
+ height: 10px;
 }
